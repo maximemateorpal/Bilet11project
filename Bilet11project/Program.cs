@@ -4,8 +4,8 @@
         Console.WriteLine("Vvedite znachenie x:");
         double x = Convert.ToDouble(Console.ReadLine());
 
-        double y = (x - 10) / (x);
+        double y = (x - 10) / (x * 10);
 
-        Console.WriteLine("Znachenie y: " + y);
+        Console.WriteLine("Znachenie y: " + y / 2);
 
 }
